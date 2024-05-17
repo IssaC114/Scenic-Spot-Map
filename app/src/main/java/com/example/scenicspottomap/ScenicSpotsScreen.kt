@@ -19,14 +19,14 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun ScenicSpotsScreen() {
     val spots = listOf(
-        Pair("羅馬競技場", R.drawable.first),
-        Pair("萬神殿", R.drawable.second),
-        Pair("特萊維噴泉", R.drawable.third),
-        Pair("聖母大殿", R.drawable.fourth),
-        Pair("米開朗基羅廣場", R.drawable.fifth),
-        Pair("烏菲茲美術館", R.drawable.sixth),
-        Pair("聖母百花大教堂", R.drawable.seventh),
-        Pair("韋奇奧宮", R.drawable.eighth)
+        Pair("羅馬競技場，羅馬", R.drawable.first),
+        Pair("萬神殿，羅馬", R.drawable.second),
+        Pair("特萊維噴泉，羅馬", R.drawable.third),
+        Pair("聖母大殿，羅馬", R.drawable.fourth),
+        Pair("米開朗基羅廣場，佛羅倫斯", R.drawable.fifth),
+        Pair("烏菲茲美術館，佛羅倫斯", R.drawable.sixth),
+        Pair("聖母百花大教堂，佛羅倫斯", R.drawable.seventh),
+        Pair("韋奇奧宮，佛羅倫斯", R.drawable.eighth)
     )
 
     val context = LocalContext.current
