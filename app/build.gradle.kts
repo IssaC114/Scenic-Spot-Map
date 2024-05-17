@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.scenicspottomap"
+    namespace = "com.example.scenicspottomap" // 添加這一行
     compileSdk = 34
 
     defaultConfig {
@@ -23,10 +23,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
 
@@ -47,7 +44,7 @@ android {
         kotlinCompilerExtensionVersion = "1.5.1"
     }
 
-    packaging {
+    packagingOptions {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
